@@ -11,9 +11,7 @@ body {
   flex-direction: column;
   margin: auto;
   background-color: rgb(36, 255, 255);
-  background-image:url('hearts.JPG') ;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image:url('hearts.JPG')  center/cover no-repeat;
   text-align: center;
 }
 
