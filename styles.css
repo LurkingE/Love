@@ -10,7 +10,6 @@ body {
   justify-content: center;
   flex-direction: column;
   margin: auto;
-  background-color: rgb(36, 255, 255);
   background-image:url('hearts.JPG')  center/cover no-repeat;
   text-align: center;
 }
@@ -38,7 +37,6 @@ button {
   font-size: 15px;
 }
 h1 {
-  font-size: 80px;
   color: rgb(0, 0, 0);
   margin-top: 40px;
   border-bottom: 4px solid;
