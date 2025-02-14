@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background:url('hearts.JPG') center/cover no-repeat ;
+  background-image:url('hearts.JPG') center/cover no-repeat ;
   text-align: center;
   flex-wrap: wrap;
   overflow: hidden;
