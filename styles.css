@@ -46,7 +46,7 @@ h1 {
   border-bottom: 4px solid;
 }
 .background {
-  width: 1000px;
+  width: 80%;
   background-color: rgba(199, 255, 125, 0.6);
   border-radius: 17px;
   padding-bottom: 30px;
