@@ -57,6 +57,7 @@ h1 {
 img{
   border-radius: 60px;
   border: 16px solid rgb(230, 88, 112);
+  margin: 0 auto;
   max-width: 400px;
 }
 
