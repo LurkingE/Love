@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  background-color: rgb(36, 255, 255);
+  background-image:url('hearts.JPG') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+button {
+  width: 300px;
+  height: 70px;
+  margin: 0 30px;
+  border-radius: 30px;
+  font-size: 30px;
+  margin-top: 40px;
+  opacity: 1.0;
+  border-style: none;
+}
+
+.yes{
+  background-color: rgb(245, 42, 42);
+  color: rgb(229, 192, 192);
+  transition: 0.6 ease;
+}
+
+.no {
+  background-color: rgb(46, 42, 99);
+  color: white;
+  font-size: 15px;
+}
+h1 {
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  margin-top: 40px;
+  border-bottom: 4px solid;
+}
+.background {
+  width: 1000px;
+  background-color: rgba(199, 255, 125, 0.6);
+  border-radius: 17px;
+  padding-bottom: 30px;
+}
+
+img{
+  border-radius: 60px;
+  border: 16px solid rgb(230, 88, 112);
+  max-width: 400px;
+}
+
+.yes:hover{
+  background-color: rgb(179, 0, 15);
+  transition: 0.2s ease;
+  color: rgb(255, 255, 255);
+}
+.no:hover{
+  background-color: black;
+  transition: 0.2s ease;
+}
+
