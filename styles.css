@@ -9,9 +9,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
-  background-image:url('hearts.JPG')  center/cover no-repeat;
+  background:url('hearts.JPG') center/cover no-repeat ;
   text-align: center;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 button {
@@ -46,15 +47,13 @@ h1 {
   background-color: rgba(199, 255, 125, 0.6);
   border-radius: 17px;
   padding-bottom: 30px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
-img{
+.image{
   border-radius: 60px;
   border: 16px solid rgb(230, 88, 112);
-  margin: 0 auto;
   width: 60%;
+  margin: 0 auto;
   max-width: 400px;
 }
 
@@ -67,4 +66,5 @@ img{
   background-color: black;
   transition: 0.2s ease;
 }
+
 
